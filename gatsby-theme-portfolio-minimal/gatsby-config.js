@@ -110,3 +110,7 @@ module.exports = (options) => ({
         `gatsby-plugin-offline`,
     ].filter((plugin) => plugin !== null),
 });
+
+module.exports = {
+  pathPrefix: "/lep",
+}
